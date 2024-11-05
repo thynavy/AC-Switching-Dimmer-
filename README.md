@@ -64,32 +64,21 @@ This dimmer circuit can be used in various scenarios such as:
 2. **Testing the Circuit:** Test the circuit with a lower voltage or a small resistive load before applying it to full AC mains power to verify functionality and safety.
 3. **Monitoring Temperature:** Regularly monitor the temperature of the BTA16-600B triac. Consider using a heat sink if high power loads are used for prolonged periods.
 
-##  Safety Precautions
+## Safety Precautions
 
-_**Warning: This circuit involves high-voltage AC power, which can be dangerous or fatal if mishandled. Follow these safety guidelines strictly.**_
+<span style="color:red"> _**Warning**:__**This circuit involves high-voltage AC power, which can be dangerous or fatal if mishandled. Follow these safety guidelines strictly.**_ </span>
 
 1. Circuit Isolation:
-
    - Maintain strict separation between the low-voltage (control) side and high-voltage (AC load) side of the circuit. The 4N25 and MOC3021 are optoisolators that help ensure this isolation, but physical separation on the PCB is essential.
-
 2. Protective Equipment:
-
    - Always wear protective equipment (e.g., insulated gloves, safety glasses) when working with high-voltage AC circuits.
-
 3. Proper Enclosure:
-
    - Enclose the circuit in a non-conductive box to prevent accidental contact with high-voltage components.
-
 4. Testing Precautions:
-
    - When testing, use an isolation transformer to reduce the risk of electrical shock and avoid working alone.
-
 5. Heat Management:
-
    - High-power loads can cause the triac to generate substantial heat. Ensure adequate ventilation and consider adding a heat sink if necessary.
-
 6. Emergency Preparedness:
-
    - Keep an accessible power cutoff switch nearby and make sure you know how to safely disconnect the circuit in an emergency.
 
 
